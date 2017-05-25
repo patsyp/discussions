@@ -1,0 +1,21 @@
+{
+  "name": "loginAndReg",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Patsy Pineda <patsyp014@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/patsyp/DojoAssignments",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.4",
+    "angular-cookies": "^1.6.4"
+  }
+}

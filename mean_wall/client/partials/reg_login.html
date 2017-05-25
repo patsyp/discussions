@@ -1,0 +1,6 @@
+<h3>Enter a  username to continue.</h3>
+<form ng-submit = UC.create(UC.newUser)>
+	<input type="text" ng-model = 'UC.newUser.username'>
+	<input type="submit" value = 'Enter'>
+	<p ng-repeat = 'error in UC.reg_errors'>{{error}}</p>
+</form>
